@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="container-fluid">
       <div className="App">
-        <Weather />
+        <Weather defaultCity="Toronto" />
       </div>{" "}
       <footer>
         This website is coded by Ishmeet Kaur and open source on{" "}
