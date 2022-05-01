@@ -4,11 +4,11 @@ import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="App">
         <Weather />
       </div>{" "}
-      <p>
+      <footer>
         This website is coded by Ishmeet Kaur and open source on{" "}
         <a
           href="https://github.com/iktalk/weather-app-react.git"
@@ -17,7 +17,7 @@ export default function App() {
         >
           Github
         </a>
-      </p>
+      </footer>
     </div>
   );
 }

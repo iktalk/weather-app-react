@@ -1,10 +1,18 @@
-.App {
-  text-align: center;
-  border: 1px solid black;
+.container-fluid {
+  margin-top: 50px;
 }
 
-.container {
+.App {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 600px;
+}
+
+footer {
   text-align: center;
+  margin-top: 5px;
 }
 
 .App-link {

@@ -1,0 +1,23 @@
+.date {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.Weather ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.Weather img {
+  width: 100px;
+  margin-top: -10px;
+}
+
+.temperature {
+  font-size: 77px;
+  margin-top: -18px;
+}
+
+.units {
+  margin-top: 10px;
+}

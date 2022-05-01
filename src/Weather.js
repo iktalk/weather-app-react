@@ -1,4 +1,5 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
@@ -10,7 +11,7 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city"
               className="form-control"
-              autofocus="on"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -22,13 +23,24 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <h1>Toronto</h1>
-      <h2>Sunday May 1</h2>
-      <ul>
-        <li>Cloudy</li>
-        <li>Humidity</li>
-        <li>Wind</li>
-      </ul>
+      <h1 className="mt-4">Toronto</h1>
+      <h2 className="date mb-4">Sunday May 1</h2>
+      <div className="row">
+        <div className="col-6">
+          <ul>
+            <li>Cloudy</li>
+            <li>Humidity</li>
+            <li>Wind</li>
+          </ul>
+        </div>
+        <div className="col-6">
+          <div className="d-flex justify-content-center">
+            <span className="temperature">20</span>
+            <span className="units">°C</span>
+            <img src="sunny.png" alt="Sunny" className="float"></img>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
