@@ -1,0 +1,13 @@
+.WeatherTemperature {
+  margin-top: -10px;
+}
+
+img {
+  width: 100px;
+  margin-top: -10px;
+  margin-right: 50px;
+}
+
+.city-header {
+  font-family: "Roboto", sans-serif;
+}

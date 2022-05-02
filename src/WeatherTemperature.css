@@ -1,3 +1,15 @@
+.temperature {
+  font-size: 77px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .units {
-  margin-top: 10px;
+  font-size: 15px;
+  position: relative;
+  margin-top: 50px;
+}
+
+a:link {
+  text-decoration: none;
 }
