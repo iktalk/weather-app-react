@@ -1,0 +1,9 @@
+.WeatherForecastDay {
+  text-align: center;
+  font-size: 12px;
+}
+
+.WeatherForecast-image img {
+  max-width: 100%;
+  height: auto;
+}
